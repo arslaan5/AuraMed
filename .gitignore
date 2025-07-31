@@ -1,0 +1,49 @@
+# --- General ---
+# Environment variables - never commit secrets
+.env
+.env.*
+!.env.example
+
+# IDE and editor directories
+.idea/
+.vscode/
+.history/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# --- Python / FastAPI Backend ---
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test & coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Node.js / React Frontend ---
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Caches
+.npm/
+.eslintcache
+.parcel-cache

@@ -1,0 +1,7 @@
+[project]
+name = "backend"
+version = "1.0.0"
+description = "AuraMed is an AI based medical assistant built to help general audience without medical knowledge by helping them with prescriptions, medicines, drugs and diagnostics. AuraMed is helping spread basic medical awareness among the people."
+readme = "../README.md"
+requires-python = ">=3.13"
+dependencies = []
